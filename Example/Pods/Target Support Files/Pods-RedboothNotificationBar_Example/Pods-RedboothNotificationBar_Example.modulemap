@@ -1,0 +1,6 @@
+framework module Pods_RedboothNotificationBar_Example {
+  umbrella header "Pods-RedboothNotificationBar_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

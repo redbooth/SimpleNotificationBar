@@ -1,0 +1,25 @@
+PODS:
+  - RedboothNotificationBar (0.1.0):
+    - SwiftMessages
+  - SwiftMessages (6.0.2):
+    - SwiftMessages/App (= 6.0.2)
+  - SwiftMessages/App (6.0.2)
+
+DEPENDENCIES:
+  - RedboothNotificationBar (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SwiftMessages
+
+EXTERNAL SOURCES:
+  RedboothNotificationBar:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RedboothNotificationBar: c40e6a1cb0d7e424a6006806b7c24c000c9044fb
+  SwiftMessages: 8b3cc68dba2f1c91aac1a74c90b10287aac35371
+
+PODFILE CHECKSUM: 70f3fd10e5f71ef9ad4c297310d3b6596224f618
+
+COCOAPODS: 1.5.3

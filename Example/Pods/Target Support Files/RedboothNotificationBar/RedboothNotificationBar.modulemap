@@ -1,0 +1,6 @@
+framework module RedboothNotificationBar {
+  umbrella header "RedboothNotificationBar-umbrella.h"
+
+  export *
+  module * { export * }
+}
