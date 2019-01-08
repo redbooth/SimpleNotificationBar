@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double RedboothNotificationBarVersionNumber;
-FOUNDATION_EXPORT const unsigned char RedboothNotificationBarVersionString[];
+FOUNDATION_EXPORT double SimpleNotificationBarVersionNumber;
+FOUNDATION_EXPORT const unsigned char SimpleNotificationBarVersionString[];
 

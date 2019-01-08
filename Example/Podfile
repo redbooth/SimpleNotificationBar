@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'RedboothNotificationBar_Example' do
-  pod 'RedboothNotificationBar', :path => '../'
+  pod 'SimpleNotificationBar', :path => '../'
 
   target 'RedboothNotificationBar_Tests' do
     inherit! :search_paths

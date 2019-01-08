@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## RedboothNotificationBar
+## SimpleNotificationBar
 
 Copyright (c) 2018 twof <fabiobean2@gmail.com>
 

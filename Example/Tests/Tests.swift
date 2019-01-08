@@ -1,5 +1,5 @@
 import XCTest
-import RedboothNotificationBar
+import SimpleNotificationBar
 
 class Tests: XCTestCase {
     

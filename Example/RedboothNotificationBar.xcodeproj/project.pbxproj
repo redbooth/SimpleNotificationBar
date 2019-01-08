@@ -15,6 +15,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		B206EC7421E555AB00F39BD3 /* SimpleNotificationBar.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B206EC7321E555AB00F39BD3 /* SimpleNotificationBar.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +32,6 @@
 		03A448930F9DED4029D35DB4 /* Pods_RedboothNotificationBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RedboothNotificationBar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		147870A7EBBAC82044DB0A0F /* Pods-RedboothNotificationBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedboothNotificationBar_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RedboothNotificationBar_Example/Pods-RedboothNotificationBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		324AB5A88C30CFAD72F67604 /* Pods-RedboothNotificationBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedboothNotificationBar_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RedboothNotificationBar_Tests/Pods-RedboothNotificationBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		4934185E0D9870EBF38A7ECC /* RedboothNotificationBar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RedboothNotificationBar.podspec; path = ../RedboothNotificationBar.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		52E70E491170DCF3A5AA7EE9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* RedboothNotificationBar_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedboothNotificationBar_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +45,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7E6F8282DA9BFE61E4109753 /* Pods_RedboothNotificationBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RedboothNotificationBar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD1DA5C9C317908ECB0826E3 /* Pods-RedboothNotificationBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedboothNotificationBar_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-RedboothNotificationBar_Example/Pods-RedboothNotificationBar_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B206EC7321E555AB00F39BD3 /* SimpleNotificationBar.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = SimpleNotificationBar.podspec; path = ../SimpleNotificationBar.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BCCB6614AD30EF147E33F5DE /* Pods-RedboothNotificationBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedboothNotificationBar_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RedboothNotificationBar_Tests/Pods-RedboothNotificationBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DF6AC3C39CE7DD15C39137CA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -132,7 +133,7 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				4934185E0D9870EBF38A7ECC /* RedboothNotificationBar.podspec */,
+				B206EC7321E555AB00F39BD3 /* SimpleNotificationBar.podspec */,
 				52E70E491170DCF3A5AA7EE9 /* README.md */,
 				DF6AC3C39CE7DD15C39137CA /* LICENSE */,
 			);
@@ -248,6 +249,7 @@
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				B206EC7421E555AB00F39BD3 /* SimpleNotificationBar.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,14 +294,14 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-RedboothNotificationBar_Example/Pods-RedboothNotificationBar_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/RedboothNotificationBar/RedboothNotificationBar.framework",
+				"${BUILT_PRODUCTS_DIR}/SimpleNotificationBar/SimpleNotificationBar.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftMessages/SwiftMessages.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RedboothNotificationBar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SimpleNotificationBar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftMessages.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -490,6 +492,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RedboothNotificationBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -504,6 +507,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RedboothNotificationBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";

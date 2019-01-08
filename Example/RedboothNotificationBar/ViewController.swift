@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import RedboothNotificationBar
+import SimpleNotificationBar
 
 class ViewController: UIViewController, NotificationBar  {
 

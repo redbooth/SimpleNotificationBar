@@ -1,0 +1,27 @@
+{
+  "name": "SimpleNotificationBar",
+  "module_name": "SimpleNotificationBar",
+  "version": "0.1.0",
+  "summary": "A short description of RedboothNotificationBar.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Redbooth/RedboothNotificationBar",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "twof": "fabiobean2@gmail.com"
+  },
+  "source": {
+    "path": "."
+  },
+  "platforms": {
+    "ios": "10.3"
+  },
+  "source_files": "RedboothNotificationBar/Classes/**/*",
+  "dependencies": {
+    "SwiftMessages": [
+
+    ]
+  }
+}

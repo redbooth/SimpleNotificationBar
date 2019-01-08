@@ -1,0 +1,6 @@
+framework module SimpleNotificationBar {
+  umbrella header "SimpleNotificationBar-umbrella.h"
+
+  export *
+  module * { export * }
+}
