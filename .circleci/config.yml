@@ -27,7 +27,7 @@ jobs:
           command: fastlane scan
           environment:
             SCAN_DEVICE: iPhone 7
-            SCAN_SCHEME: SimpleNotificationBar-Example
+            SCAN_SCHEME: RedboothNotificationBar-Example
             SCAN_DERIVED_DATA_PATH: build/DerivedData
             SCAN_OUTPUT_DIRECTORY: build/Output
 
