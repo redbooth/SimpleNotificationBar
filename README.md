@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/RedboothNotificationBar.svg?style=flat)](https://cocoapods.org/pods/RedboothNotificationBar)
 [![Platform](https://img.shields.io/cocoapods/p/RedboothNotificationBar.svg?style=flat)](https://cocoapods.org/pods/RedboothNotificationBar)
 
+![alt text](https://github.com/redbooth/SimpleNotificationBar/blob/master/ezgif.com-resize.gif?raw=true)
+
 ## Usage
 
 Usage is simple, as the name implies. Simply conform your `UIViewController` to `NotificationBar`
