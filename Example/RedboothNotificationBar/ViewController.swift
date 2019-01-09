@@ -9,13 +9,17 @@
 import UIKit
 import SimpleNotificationBar
 
-class ViewController: UIViewController, NotificationBar  {
+class ViewController: UIViewController, NotificationBar {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+    }
 
-        self.showErrorBanner(withMessage: "Hey!")
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+
+        self.showSuccessBanner(withMessage: "You did it!")
         self.showErrorBanner(withMessage: "Uh Oh!")
     }
 
