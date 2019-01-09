@@ -1,9 +1,11 @@
 # RedboothNotificationBar
 
-[![CI Status](https://img.shields.io/travis/twof/RedboothNotificationBar.svg?style=flat)](https://travis-ci.org/twof/RedboothNotificationBar)
-[![Version](https://img.shields.io/cocoapods/v/RedboothNotificationBar.svg?style=flat)](https://cocoapods.org/pods/RedboothNotificationBar)
-[![License](https://img.shields.io/cocoapods/l/RedboothNotificationBar.svg?style=flat)](https://cocoapods.org/pods/RedboothNotificationBar)
-[![Platform](https://img.shields.io/cocoapods/p/RedboothNotificationBar.svg?style=flat)](https://cocoapods.org/pods/RedboothNotificationBar)
+[![CI Status](https://img.shields.io/circleci/project/github/Redbooth/SimpleNotificationBar.svg)](https://circleci.com/gh/redbooth/SimpleNotificationBar)
+[![Version](https://img.shields.io/cocoapods/v/SimpleNotificationBar.svg?style=flat)](https://cocoapods.org/pods/SimpleNotificationBar)
+[![License](https://img.shields.io/cocoapods/l/SimpleNotificationBar.svg?style=flat)](https://cocoapods.org/pods/SimpleNotificationBar)
+[![Platform](https://img.shields.io/cocoapods/p/SimpleNotificationBar.svg?style=flat)](https://cocoapods.org/pods/SimpleNotificationBar)
+
+![alt text](https://github.com/redbooth/SimpleNotificationBar/blob/master/ezgif.com-resize.gif?raw=true)
 
 ## Usage
 
