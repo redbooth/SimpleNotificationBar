@@ -16,6 +16,7 @@ class ViewController: UIViewController, NotificationBar  {
         // Do any additional setup after loading the view, typically from a nib.
 
         self.showErrorBanner(withMessage: "Hey!")
+        self.showErrorBanner(withMessage: "Uh Oh!")
     }
 
     override func didReceiveMemoryWarning() {
