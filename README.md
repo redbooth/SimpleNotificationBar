@@ -1,6 +1,5 @@
 # RedboothNotificationBar
-
-[![CI Status](https://img.shields.io/circleci/project/github/Redbooth/SimpleNotificationBar.svg)](https://circleci.com/gh/redbooth/SimpleNotificationBar)
+[![CircleCI](https://circleci.com/gh/redbooth/SimpleNotificationBar.svg?style=svg)](https://circleci.com/gh/redbooth/SimpleNotificationBar)
 [![Version](https://img.shields.io/cocoapods/v/SimpleNotificationBar.svg?style=flat)](https://cocoapods.org/pods/SimpleNotificationBar)
 [![License](https://img.shields.io/cocoapods/l/SimpleNotificationBar.svg?style=flat)](https://cocoapods.org/pods/SimpleNotificationBar)
 [![Platform](https://img.shields.io/cocoapods/p/SimpleNotificationBar.svg?style=flat)](https://cocoapods.org/pods/SimpleNotificationBar)
